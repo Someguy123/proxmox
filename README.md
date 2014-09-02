@@ -17,13 +17,13 @@ Installation
 -----
 Add the package `someguy123/proxmox` to your composer.json
 
-    $ composer require someguy123/proxmox ~3.0
+    $ composer require someguy123/proxmox 1.*
 
 or
 
     {
         "require": {
-            "someguy123/proxmox": "~1.0"
+            "someguy123/proxmox": "1.*"
         }
     }
 
