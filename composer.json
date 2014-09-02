@@ -1,0 +1,25 @@
+{
+    "name": "someguy123/proxmox",
+    "description": "Laravel Bindings for the ZzAntares ProxmoxVE composer package ",
+    "license": "LGPL-3",
+    "keywords": ["proxmox","proxmoxve","laravel"],
+    "homepage": "http://github.com/someguy123/proxmox",
+    "authors": [
+        {
+            "name": "Someguy123",
+            "email": "info@someguy123.com",
+            "homepage": "http://www.someguy123.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.3.*",
+        "zzantares/proxmoxve": "~3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Someguy123\\Proxmox": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
